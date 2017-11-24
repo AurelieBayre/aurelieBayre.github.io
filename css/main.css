@@ -1,6 +1,6 @@
-nabody {
-    margin: 60px auto;
-    width: 70%;
+nbody {
+    margin: 70px auto;
+    width: 65%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -25,13 +25,13 @@ h1 {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #4d004d;
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 0.8em;
 }
 
 ul.posts { 
