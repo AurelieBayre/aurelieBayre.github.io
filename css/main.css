@@ -23,7 +23,8 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-family:'Andale Mono', 'Courier New', 'Monospace';
+    color: #4d004d;
+    font-family:'Cabin', 'Courier New', 'Monospace';
     font-size: 2em;
 }
 p {
