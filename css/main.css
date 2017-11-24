@@ -1,4 +1,4 @@
-nbody {
+body {
     margin: 70px auto;
     width: 65%;
 }
@@ -30,7 +30,7 @@ p {
     color: #4d004d;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #4d004d;
     font-size: 0.8em;
 }
 
