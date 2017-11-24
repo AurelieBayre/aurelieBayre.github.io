@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aurelie Bayre, young padawan, launches her github blog."
-date: 2014-04-30
+date: 2017-11-24
 ---
 
 So I'm starting another blog just for the sake of learning [Jekyll](http://jekyllrb.com).
