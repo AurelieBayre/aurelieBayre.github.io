@@ -1,4 +1,8 @@
 body {
+    border-style : solid;
+    border-width: 1px;
+    border-color: #13073A;
+    border-radius: 5px;
     margin: 70px auto;
     width: 65%;
 }
@@ -23,8 +27,8 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    color: #4d004d;
-    font-family:'Cabin', 'Courier New', 'Monospace';
+    color: #13073A;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     font-size: 2em;
 }
 p {
