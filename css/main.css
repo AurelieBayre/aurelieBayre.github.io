@@ -3,7 +3,7 @@ body {
     border-width: 1px;
     border-color: #13073A;
     border-radius: 5px;
-    box-shadow: 8px 8px 10px #251655;
+    box-shadow: 8px 8px 15px #251655;
     margin: 70px auto;
     padding: 20px;
     width: 65%;
@@ -19,12 +19,13 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    color: #003300;
+    color: #12073B;
     font-weight: bold;
     text-decoration: none;
     
 }
 a:hover {
+    color: #3F3075;
     letter-spacing: 0.1654em;
     text-decoration: underline;
 }
