@@ -12,4 +12,6 @@ Preferably using the terminal, for practice.
 ## Yesterday 
 Yesterday I learned a bit of Flexbox, using [Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies)!!! lots of fun. Finished a Git tuto. 
 
-## Today:
+## Today (Day 64):
+* completed chapter 2 of Flexbox Zombies
+* practiced css on this very site. 
