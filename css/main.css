@@ -19,7 +19,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    color: #12073B;
+    color: #4B2D73;
     font-weight: bold;
     text-decoration: none;
     
@@ -35,9 +35,12 @@ h1 {
     font-size: 2em;
 }
 p {
+    color: #13073A;
+    font-family: 'Abel';
     font-size: 1em;
     line-height: 1.2em;
-    color: #4d004d;
+    
+    
 }
 footer {
     border-top: 1px solid #4d004d;
