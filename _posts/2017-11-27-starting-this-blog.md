@@ -3,7 +3,6 @@ layout: post
 title: "Starting this blog"
 date: 2017-11-27
 ---
-# Starting this blog
 
 ## Resolution
 Okay, so my resolution for December is to log my progress here as well as on Twitter...on a daily basis!
