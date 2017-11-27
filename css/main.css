@@ -3,7 +3,9 @@ body {
     border-width: 1px;
     border-color: #13073A;
     border-radius: 5px;
+    box-shadow: 8px 8px 10px #251655;
     margin: 70px auto;
+    padding: 20px;
     width: 65%;
 }
 nav ul, footer ul {
