@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Starting this blog"
-date: 2017-11-25
+date: 2017-11-27
 ---
 # Starting this blog
 
