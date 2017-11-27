@@ -63,3 +63,7 @@ ul.posts li {
     list-style: none;
 }
 
+.blogDate {
+    color: #13073A;
+    font-family: 'Dosis', sans-serif;
+}
