@@ -3,6 +3,7 @@ body {
     border-width: 1px;
     border-color: #553982;
     box-shadow: 1px 1px 2px 1px #9365B8;
+    color: #4B2D73;
     margin: 70px auto;
     padding: 30px;
     width: 65%;
@@ -17,7 +18,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    color: #4B2D73;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-decoration: none;  
