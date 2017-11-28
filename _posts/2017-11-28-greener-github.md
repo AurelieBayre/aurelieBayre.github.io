@@ -13,5 +13,5 @@ I also have to look how to delete a file, because I made a mistake before creati
 
 A bit of CSS: started working on my nephew's site.
 
-Then I worked with @hanapotski on callbacks and higher functions. We're trying to solve a challenge that looks like FCC' "sorted union", but we want to return the values that are common to every array passed as arguments. (The function is defined with one argument only)
+Then I worked with @hanapotski on callbacks and higher functions. We're trying to solve a challenge that looks like FCC' "sorted union", but we want to return the values that are common to all the arrays passed as arguments. (The function is defined with one argument only, though)
 
