@@ -9,6 +9,7 @@ body {
     border-color: #553982;
     box-shadow: 1px 1px 1px 1px #9365B8;
     color: #4B2D73;
+    font-family: 'Dosis', sans-serif;
     margin: 70px auto;
     padding: 30px;
     width: 65%;
@@ -23,6 +24,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
+    color: #9365B8;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-decoration: none;  
@@ -47,13 +49,12 @@ h2 {
 
 p, p ul {
     color: #13073A;
-    font-family: 'Dosis', sans-serif;
     font-size: 1em;
     line-height: 1.2em;
 }
 
 footer {
-    border-top: 1px solid #4d004d;
+    border-top: 1px solid #553982;
     font-size: 0.8em;
 }
 
