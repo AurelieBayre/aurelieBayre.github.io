@@ -47,10 +47,15 @@ h2 {
     font-size: 1.3;
 }
 
-p, p ul {
-    color: #13073A;
+p {
+    
     font-size: 1em;
     line-height: 1.2em;
+}
+
+p ul {
+    font-size: 0.9em;
+    line-height: 1em;
 }
 
 footer {
