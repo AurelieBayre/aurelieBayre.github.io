@@ -7,7 +7,7 @@ body {
     border-style : solid;
     border-width: 1px;
     border-color: #553982;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 1px 1px #eeeeee;
     color: rgb(116, 84, 160);
     font-family: 'Dosis', sans-serif;
     margin: 70px auto;
@@ -74,6 +74,6 @@ ul.posts li {
 }
 
 .blogDate {
-    color: #4B2D73;
+    color: rgb(116, 84, 160);
     font-family: 'Dosis', sans-serif;
 }
