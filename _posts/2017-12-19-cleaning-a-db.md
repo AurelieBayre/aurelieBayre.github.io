@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cleaning a db
+title: 'cleaning a db'
 date: 2017-12-19
 ---
 
