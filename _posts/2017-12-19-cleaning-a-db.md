@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: cleaning a db
 date: 2017-12-19
 ---
@@ -24,3 +24,6 @@ Valuable docs and videos:
 Might be valuable later:
 
 [storing images and files](https://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/)
+
+And lots of info I need for this course:
+[Google Study Guide](https://developers.google.com/training/certification/mobile-web-specialist/StudyGuide_MobileWebSpecialist.pdf)
