@@ -4,10 +4,10 @@ title: Conversion and radices
 date: 2017-12-27
 ---
 
-Yesterday and this morning I had to convert data from one numeric system to another.
+Yesterday and this morning I had to convert data from one numeral system to another.
 first case : convert a number from decimal to binary!
 
-For this, use toString(2). toString() is a method you use on a number and it returns a string. If you convert a radix, then the number will be converted to the corresponding numeric system.
+For this, use toString(2). toString() is a method you use on a number and it returns a string. If you convert a radix, then the number will be converted to the corresponding numeral system.
 Example:
 
     var num = 5;
