@@ -9,9 +9,10 @@ first case : convert a number from decimal to binary!
 
 For this, use toString(2). toString() is a method you use on a number and it returns a string. If you convert a radix, then the number will be converted to the corresponding numeric system.
 Example:
-  var num = 5;
-  var binary = num.toString(2);
-  console.log(binary); //'101'
+
+   var num = 5;
+    var binary = num.toString(2);
+   console.log(binary); //'101'
   
 Now let's say you want to work the other way round. You've got a string, a radix, and you want to convert that string into decimal.
 In that case, you use parseInt(). Example with a function I wrote for an empireofcode challenge:
