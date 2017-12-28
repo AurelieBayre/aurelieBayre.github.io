@@ -17,6 +17,6 @@ Conclusion is: charCodeAt() returns UTF-16 reference whereas codePointAt() is th
 
 This led me to ponder: what's the difference between UTF and Unicode? Well, [read this!!! by Rasmus](http://www.polylab.dk/utf8-vs-unicode.html). 
 I'll sum it up as a way to memorize what I've understood. Unicode is a set, or a table, of references, with one reference for each character. what I call reference here is what is actually called "code point", hence the codePointAt() method.
-In the other hand, UTF is not a "thing" like a table, it is a process. It's an algorithm that calculate or rather convert 0 and 1 to a string of numbers (or the other way round depending on what you're doing). And this string is the Unicode String.
+In the other hand, UTF is not a "thing" like a table, it is a process. It's an algorithm that calculate or rather convert 0 and 1 to a string of numbers (or the other way round depending on what you're doing). And this string of numbers is the Unicode reference.
 
 To remember which is which: UTF stands for "Unicode *Transformation* Format". Transformation => process => algorithm.
