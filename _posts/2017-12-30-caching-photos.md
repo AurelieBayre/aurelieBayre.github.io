@@ -61,4 +61,6 @@ The trick is to use response.clone() : your cloning the response.
 
 The clone goes to the cache, while the original is displayed on the browser.
 
+*Glossary* (aka Speak like a Dev)
+From what I gather, "expression" means an action-step (=one line of code, one instruction) inside a function. So you can hear about a function with a single expression as the function body.
 
