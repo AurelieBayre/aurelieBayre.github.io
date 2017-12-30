@@ -8,21 +8,21 @@ Nothing really difficult here, but I still lack confidence with those quizzes...
 
 (notes from the Udacity Mobile Web course by Jake Archibald)
 The goal is to cache photos as they appear without losing streaming/performance impact.
-So we'll be using the (cache API)[https://developer.mozilla.org/en-US/docs/Web/API/Cache].
+So we'll be using the [cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache).
 
 Cache API methods:
 Returning a Promise:
  
-    Cache.match(request, options)
-    Cache.matchAll(request, options)
-    Cache.keys(request, promise)
-    Cache.delete(request, promise)
+    cache.match(request, options)
+    cache.matchAll(request, options)
+    cache.keys(request, promise)
+    cache.delete(request, promise)
 
 Not returning a Promise:
     
-    Cache.add(request)
-    Cache.addAll(requests) 
-    Cache.put(request, options)
+    cache.add(request)
+    cache.addAll(requests) 
+    cache.put(request, options)
 
 /Note to myself: PLEASE DON't CONFUSE 'cache' with 'caches'/
 
@@ -50,14 +50,14 @@ example : you can read the response as json response.json(); and then as a blob 
 So how do you store your photos?
 The trick is to use response.clone() : your cloning the response.
 
-        event.respondWith(
-            caches.open(yourApp-content-imgs).then(function(cache){
-                return fetch(request).then(function(response){
-                    cache.put(request, response.clone());
-                    return response;
-                })
-            })
-        )
+     event.respondWith(
+         caches.open(yourApp-content-imgs).then(function(cache){
+             return fetch(request).then(function(response){
+                 cache.put(request, response.clone());
+                 return response;
+             })
+         })
+     )
 
 The clone goes to the cache, while the original is displayed on the browser.
 
