@@ -46,7 +46,7 @@ Yes, I had fun writing some of those example. I think playing is very important 
 
 #### Self Quiz: write that filter function using arrow syntax: 
 ~~~~~~
- const animalzzz = ['cat', 'tortoise', 'fly', 'ant', 'horse', 'elephant', 'dragonfly', 'human', 'boa'];
+ const animalzzz = ['cat', 'tortoise', 'fly', 'elephant', 'dragonfly', 'human', 'boa'];
  //const short = names.filter(function(name) {
  //  return name.length > 6;
  //});
@@ -54,7 +54,7 @@ Yes, I had fun writing some of those example. I think playing is very important 
 const short2 = animalzzz.filter(
     name => name.length < 4
  );
-//console.log(short2); //['cat, 'fly', 'ant', 'boa']
+//console.log(short2); //['cat, 'fly', 'boa']
 ~~~~~~
 
 ## Storing arrow funciton in a variable
@@ -75,7 +75,7 @@ const alas = (name, forbidden) => console.log(`${name}. You know you can't have 
 alas('Aurelie', 'pizza'); //why are you so mean?
 ~~~~
 
-## YOU MISS CURLY BRACKETS???
+### Are you already missing curly brackets? Here they are again!
 ### use them for "body block syntax" = when you have more that one line of code in your function.
    
     const alternative = (option1, option2) => { //the curls are here!!!
