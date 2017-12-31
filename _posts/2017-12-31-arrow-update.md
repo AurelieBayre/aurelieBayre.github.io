@@ -4,7 +4,7 @@ title: Arrow Update
 date: 2017-12-31
 ---
 
-# So, I'm finally updating my syntax to ES6.
+So, I'm finally updating my syntax to ES6.
 
 First, what's ES6?
 
@@ -20,13 +20,14 @@ But what's ECMA?
 > * Office Open XML
 > * JSON
 > * telecommunication standards
+> * optical medias
 
 
 So it was about time I seriously learned about it!
 
-Below are several commented example study arrows.
+Below are several commented examples to study arrows.
 
-Yes, I had fun writing some of those example. I think playing is very important when you've got to learn something.
+Yes, I had fun writing some of those examples. I think playing is very important when you've got to learn something.
 
 #### The old way:
     const plusTwo = [1, 2, 3].map(function(num){
@@ -46,7 +47,7 @@ Yes, I had fun writing some of those example. I think playing is very important 
 
 #### Self Quiz: write that filter function using arrow syntax: 
 ~~~~~~
- const animalzzz = ['cat', 'tortoise', 'fly', 'elephant', 'dragonfly', 'human', 'boa'];
+ const animalzzz = ['cat', 'tortoise', 'fly', 'dragonfly', 'human', 'boa'];
  //const short = names.filter(function(name) {
  //  return name.length > 6;
  //});
@@ -57,14 +58,15 @@ const short2 = animalzzz.filter(
 //console.log(short2); //['cat, 'fly', 'boa']
 ~~~~~~
 
-## Storing arrow funciton in a variable
+## Storing arrow function in a variable
 
-### only ONE parameter (name)
+### only ONE parameter
 
-    const truth = name => console.log(`${name}, you are wonderful.`); //use BACKTICKS!!!
+    const truth = name => console.log(`${name}, you are wonderful.`); 
+    //use BACKTICKS!!!
     truth('Aurelie');//awwwww thank you!!!!
-
-### ZERO or >2 parameters : use parenthesis
+     
+### zero paramesters or parameters >= 2 parameters : use parentheses
 
 ~~~~
 const insist = () => console.log('I mean it.');
@@ -83,6 +85,7 @@ alas('Aurelie', 'pizza'); //why are you so mean?
     console.log(`But you can have ${option1}, and what's more, ${option2}!!!`);
     };
 
-    alternative('endive salad', 'keto burgers'); //yeah sure but it's not the same...I miss pizza.
+    alternative('endive salad', 'keto burgers'); 
+    //yeah sure but it's not the same...I miss pizza.
 
 That's all folk! Happy new year!
