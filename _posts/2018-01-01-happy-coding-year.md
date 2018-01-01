@@ -3,10 +3,11 @@ layout: post
 title: Happy Coding Year!
 date: 2018-01-01
 ---
+I wish you all a beautiful year, may we all find a good job.
 
-first, a syntactic tip I saw on codewars' best solutions.
+First, a syntactic tip I saw on codewars' best solutions.
 
-For a simple algorithm: 'Return 'Even' if input is even, return 'Odd' if it's odd.'
+Instruction: Return 'Even' if input is even, return 'Odd' if it's odd.
 
 So you would usually do something like that:
 
@@ -18,17 +19,18 @@ So you would usually do something like that:
       return 'Odd'}
     }
 
-Well, you can do make it much shorter using *ternary* conditional:
+Well, you can make it much shorter using *ternary* conditional:
 
     function even_or_odd(number) {
     return number % 2 ? 'Odd' : 'Even'
     }
     
 It works, because non-zero values are TRUE. (Sorry Zero.)
-to write it ternary-style, 
+
+To write it ternary-style, 
 
 * you need a *?* after your condition,
-* you need a *:* to separate your two possible result. 
+* you need a *:* to separate your two possible results. 
 * The first result is the one that has to be returned when the condition is true.
 
 More on ternary [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
