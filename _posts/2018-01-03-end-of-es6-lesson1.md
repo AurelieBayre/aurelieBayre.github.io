@@ -1,7 +1,7 @@
 ---
 layout: post
 title: End of ES6 lesson 1.
-date: 2017-01-03
+date: 2017-08-03
 ---
 
 ## Grrrr!!!
