@@ -26,7 +26,7 @@ Answer is [here](https://andylangton.co.uk/blog/development/get-viewportwindow-s
 Remember:
 
     var yourWidth = window.innerWidth;
-    var yourHeight = windows.innerHeight;
+    var yourHeight = window.innerHeight;
     
 (OF COURSE, there are exception to this depending on the browser, but the page I've referenced cover this. However, the code shown above will work in most cases.)
 
